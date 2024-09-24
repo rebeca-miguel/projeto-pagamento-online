@@ -125,16 +125,25 @@ E por fim, chamar ele no script do arquivo pachage.json
 
 Realizei uma requisição POST para /payments com o corpo especificado. A resposta foi 201 Created, confirmando que o pagamento foi criado com sucesso;
 
+![Criar](https://github.com/user-attachments/assets/7a2f141f-71d8-4e33-b681-3da8c1b66efc)
+
+
 Listar Pagamentos:
 
 Uma requisição GET para /payments retornou uma lista de pagamentos em formato JSON, com status 200 OK.
 Atualizar Pagamento:
 
+![Listar](https://github.com/user-attachments/assets/1f8a2498-29b3-4543-b788-6b46307d88ee)
+
 Executei um PATCH em /payments/:id (substituindo :id pelo ID de um pagamento existente) e recebi uma confirmação de que o pagamento foi alterado;
+
+![Atualizar](https://github.com/user-attachments/assets/85e59f76-a8fe-43d4-9f12-cd90ea8bf654)
 
 Deletar Pagamento:
 
 Com uma requisição DELETE para /payments/:id, o pagamento foi removido com sucesso, recebendo a resposta 200 OK.
+
+![Deletar](https://github.com/user-attachments/assets/5efa18cc-2bb8-48e6-a60f-e5a30edb9123)
 
 # Resumo:
 
